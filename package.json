@@ -1,0 +1,23 @@
+{
+  "name": "cat-app",
+  "version": "1.0.0",
+  "description": "This is a cat app",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bin/index.js",
+    "dev": "npm install && node bin/index.js"
+  },
+  "keywords": [
+    "cat",
+    "node"
+  ],
+  "author": "Bhanuka Chathuranga",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "merge-img": "^2.1.3",
+    "minimist": "^1.2.8",
+    "path": "^0.12.7"
+  }
+}
